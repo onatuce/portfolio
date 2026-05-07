@@ -1,0 +1,35 @@
+const skills = [
+"React",
+"TypeScript",
+"JavaScript",
+"Java",
+"Git",
+"GitHub",
+"CI/CD",
+"Playwright",
+"HTML",
+"CSS",
+"Tailwind",
+"Structured Development",
+];
+export default function Skills() {
+return (
+    <section id="skills" className="border-t border-slate-200 bg-white">
+    <div className="mx-auto max-w-5xl px-6 py-20">
+        <h2 className="text-2xl font-bold tracking-tight text-slate-950">
+        Ferdigheter
+        </h2>
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+        {skills.map((skill) => (
+            <div
+            key={skill}
+            className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700"
+            >
+            {skill}
+            </div>
+        ))}
+        </div>
+    </div>
+    </section>
+);
+}
