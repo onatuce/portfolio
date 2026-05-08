@@ -1,23 +1,23 @@
 export const projects = [
-  {
+{
     title: "Schibsted Bachelor Project",
     description:
-      "Bachelorprosjekt gjennomført i samarbeid med Schibsted, med fokus på praktisk problemløsning, teknisk gjennomføring og strukturert utviklingsprosess.",
+    "Bachelor project developed in collaboration with Schibsted, focused on frontend development, teamwork and structured software development using Git and Agile methodologies.",
     stack: ["React", "TypeScript", "Git", "Agile"],
     github: "#",
-  },
-  {
+},
+{
     title: "Playwright Test Automation Framework",
     description:
-      "Et test automation-prosjekt med Playwright for å automatisere end-to-end tester, kjøre tester lokalt og integrere testene i GitHub Actions.",
+    "Developed a structured UI test automation framework using Playwright and TypeScript. Implemented Page Object Model (POM) architecture, reusable test utilities, and CI integration with GitHub Actions to ensure stable and maintainable automated testing workflows.",
     stack: ["Playwright", "TypeScript", "GitHub Actions", "CI/CD"],
     github: "#",
-  },
-  {
+},
+{
     title: "Java Academic Projects",
     description:
-      "Akademiske Java-prosjekter med fokus på objektorientert programmering, datastrukturer, algoritmer og ryddig kodeorganisering.",
+    "Implemented Java programs applying object-oriented principles such as interfaces, polymorphism, collections, and fundamental data structures. Focused on modular design, clean code, and structured problem-solving.",
     stack: ["Java", "OOP", "Data Structures", "Algorithms"],
     github: "#",
-  },
+},
 ];

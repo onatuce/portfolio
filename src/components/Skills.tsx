@@ -10,14 +10,14 @@ const skills = [
 "HTML",
 "CSS",
 "Tailwind",
-"Structured Development",
+"Testing",
 ];
 export default function Skills() {
 return (
-    <section id="skills" className="border-t border-slate-200 bg-white">
+    <section id="skills" className="border-t border-slate-200 bg-white reveal">
     <div className="mx-auto max-w-5xl px-6 py-20">
         <h2 className="text-2xl font-bold tracking-tight text-slate-950">
-        Ferdigheter
+        Skills
         </h2>
         <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
         {skills.map((skill) => (

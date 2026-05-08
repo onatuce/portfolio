@@ -1,54 +1,52 @@
 import { projects } from "@/data/projects";
 
 export default function Projects() {
-  return (
+return (
     <section id="projects" className="border-t border-slate-200 bg-slate-50">
-      <div className="mx-auto max-w-5xl px-6 py-20">
+    <div className="mx-auto max-w-5xl px-6 py-20">
         <div className="max-w-2xl">
-          <h2 className="text-2xl font-bold tracking-tight text-slate-950">
-            Prosjekter
-          </h2>
-          <p className="mt-4 text-slate-600">
-            Utvalgte prosjekter som viser teknisk forståelse, struktur og evne
-            til å jobbe med moderne utviklingsverktøy.
-          </p>
+        <h2 className="text-2xl font-bold tracking-tight text-slate-950">
+            Projects
+        </h2>
+        <p className="mt-4 text-slate-600">
+            Selected projects that demonstrate technical understanding, structure, and ability
+            to work with modern development tools.
+        </p>
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {projects.map((project) => (
+        {projects.map((project) => (
             <article
-              key={project.title}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+            key={project.title}
+            className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
             >
-              <h3 className="text-lg font-semibold text-slate-950">
+            <h3 className="text-lg font-semibold text-slate-950">
                 {project.title}
-              </h3>
+            </h3>
 
-              <p className="mt-3 text-sm leading-6 text-slate-600">
+            <p className="mt-3 text-sm leading-6 text-slate-600">
                 {project.description}
-              </p>
+            </p>
 
-              <div className="mt-5 flex flex-wrap gap-2">
+            <div className="mt-5 flex flex-wrap gap-2">
                 {project.stack.map((tech) => (
-                  <span
+                <span
                     key={tech}
-                    className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700"
-                  >
+                    className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700">
                     {tech}
-                  </span>
+                </span>
                 ))}
-              </div>
-
-              <a
+            </div>
+            <a
                 href={project.github}
                 className="mt-6 inline-block text-sm font-medium text-slate-900 hover:underline"
-              >
+            >
                 GitHub →
-              </a>
+            </a>
             </article>
-          ))}
+        ))}
         </div>
-      </div>
+    </div>
     </section>
-  );
+);
 }
