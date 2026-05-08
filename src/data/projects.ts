@@ -3,7 +3,7 @@ export const projects = [
     title: "Schibsted Bachelor Project",
     description:
     "Bachelor project developed in collaboration with Schibsted, focused on frontend development, teamwork and structured software development using Git and Agile methodologies.",
-    stack: ["React", "TypeScript", "Git", "Agile"],
+    stack: ["React", "TypeScript", "Git", "Agile", "CI/CD"],
     github: "#",
 },
 {
@@ -17,7 +17,7 @@ export const projects = [
     title: "Java Academic Projects",
     description:
     "Implemented Java programs applying object-oriented principles such as interfaces, polymorphism, collections, and fundamental data structures. Focused on modular design, clean code, and structured problem-solving.",
-    stack: ["Java", "OOP", "Data Structures", "Algorithms"],
+    stack: ["Java", "OOP", "Data Structures"],
     github: "#",
 },
 ];

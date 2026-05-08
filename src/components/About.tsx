@@ -1,3 +1,5 @@
+import Education from "@/components/Education";
+
 export default function About() {
   return (
     <section id="about" className="border-t border-slate-200 bg-white">
@@ -7,13 +9,14 @@ export default function About() {
         </h2>
         <div className="mt-6 max-w-3xl space-y-4 text-base leading-7 text-slate-600">
         <p>
-            I am an IT student at OsloMet with an interest in frontend development, test automation and structured software engineering.
+            Bachelor graduate in Information Technology from OsloMet with an interest in frontend development, test automation and structured software engineering.
             I enjoy working with clean code, good project structure and solutions that are easy to maintain and improve.
             Through academic and personal projects, I have worked with React, TypeScript, Java, Git, CI/CD and Playwright. 
             I am currently looking for opportunities where I can continue developing as a software engineer and contribute in a 
             collaborative development environment.
         </p>
         </div>
+        <Education />
     </div>
     </section>
 );

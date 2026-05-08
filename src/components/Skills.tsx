@@ -3,14 +3,18 @@ const skills = [
 "TypeScript",
 "JavaScript",
 "Java",
+"Next.js",
+"HTML",
+"CSS",
+"OOP",
 "Git",
 "GitHub",
 "CI/CD",
-"Playwright",
-"HTML",
-"CSS",
-"Tailwind",
 "Testing",
+"Playwright",
+"SQL",
+"Jira",
+"Slack",
 ];
 export default function Skills() {
 return (

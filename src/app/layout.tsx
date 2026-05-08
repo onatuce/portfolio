@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ditt Navn | Junior IT Developer",
+  title: "Onat Üce | Junior Software Engineer",
   description:
-    "Portfolio for a junior IT developer focused on frontend development, test automation, React, TypeScript, Java and structured software development.",
+    "Portfolio for a junior software engineer focused on frontend development, test automation, React, TypeScript, Java and structured software development.",
   keywords: [
     "Junior Developer",
-    "IT Developer",
+    "Software Engineer",
     "React",
     "TypeScript",
     "Playwright",
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     "Frontend Developer",
     "Test Automation",
   ],
-  authors: [{ name: "Ditt Navn" }],
+  authors: [{ name: "Onat Üce" }],
   openGraph: {
-    title: "Ditt Navn | Junior IT Developer",
+    title: "Onat Üce | Junior Software Engineer",
     description:
-      "Junior IT developer focused on frontend, test automation and structured development.",
+      "Junior software engineer focused on frontend, test automation and structured development.",
     type: "website",
     url: "https://dittdomene.no",
   },

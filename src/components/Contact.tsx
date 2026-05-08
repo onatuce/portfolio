@@ -8,9 +8,7 @@ return (
         Contact
         </h2>
         <p className="mt-4 max-w-2xl text-slate-600">
-        I am open to junior developer roles, internships 
-        and opportunities related to frontend development, 
-        test automation and software engineering.
+        Open to junior software engineering roles in frontend, testing and full-stack environments.
         </p>
         <div className="mt-8 space-y-3 text-sm">
         <p>
@@ -22,7 +20,7 @@ return (
 
         <p>
             <span className="font-medium text-slate-900">LinkedIn:</span>{" "}
-            <a href="https://www.linkedin.com/in/onat-i%C5%9F%C4%B1k-%C3%BCce-5aa537254/" className="text-slate-600 hover:underline">
+            <a href="https://www.linkedin.com/in/onat-işık-üce-5aa537254 " className="text-slate-600 hover:underline">
             linkedin.com/in/onat-işık-üce
             </a>
         </p>

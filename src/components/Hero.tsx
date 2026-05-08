@@ -22,14 +22,14 @@ return (
 
         <div className="mt-8 flex flex-wrap gap-3">
         <a
-        href="https://linkedin.com/in/onat-işık-üce-5aa537254/"
+        href="https://www.linkedin.com/in/onat-işık-üce-5aa537254 "
         target="_blank"
             className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:bg-slate-700"
         >
         LinkedIn
         </a>
 
-        <a
+    <a
             href="https://github.com/onatuce"
             target="_blank"
             className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:bg-slate-700"
@@ -37,12 +37,14 @@ return (
             GitHub
         </a>
 
+{/*   
         <a
             href="/cv.pdf"
             className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:bg-slate-700"
         >
             Download Resume
         </a>
+        */}
         </div>
     </div>
     </section>
