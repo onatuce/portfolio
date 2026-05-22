@@ -11,8 +11,8 @@ return (
         </h1>
 
         <p className="mt-6 text-xl leading-8 text-slate-700">
-        Focused on frontend development, test automation and structured 
-        software engineering using React, TypeScript and modern development tools.
+        Focused on structured software engineering, 
+        system understanding, test automation and modern development practices.
         </p>
 
         <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
