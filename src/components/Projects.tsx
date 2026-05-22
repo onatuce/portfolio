@@ -38,12 +38,12 @@ return (
                     </span>
                 ))}
                 </div>
-                <a
+      {/*          <a
                 href={project.github}
                 className="mt-6 inline-block text-sm font-medium text-slate-900 hover:underline"
                 >
                 GitHub →
-                </a>
+                </a>*/}
             </div>
             </article>
         ))}
