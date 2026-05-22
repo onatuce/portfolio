@@ -8,7 +8,7 @@ return (
         Contact
         </h2>
         <p className="mt-4 max-w-2xl text-slate-600">
-        Open to junior software engineering roles in frontend, testing and full-stack environments.
+        Open to junior roles in software engineering, testing, platform or system-oriented environments.
         </p>
         <div className="mt-8 space-y-3 text-sm">
         <p>

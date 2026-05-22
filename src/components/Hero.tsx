@@ -16,8 +16,7 @@ return (
         </p>
 
         <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-            I enjoy building clean and maintainable applications with a strong focus on usability,
-            testing and structured development practices.
+            I enjoy building clean and maintainable applications with a strong focus on usability and testing.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">
