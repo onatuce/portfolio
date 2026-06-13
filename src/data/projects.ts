@@ -2,9 +2,10 @@ export const projects = [
 {
     title: "Schibsted Bachelor Project",
     description:
-    "Bachelor project developed in collaboration with Schibsted, focused on frontend development, teamwork and structured software development using Git and Agile methodologies.",
+    "Semester-long bachelor’s project conducted in collaboration with Schibsted (parent company of VG and Aftenposten). Worked on-site at Schibsted’s offices two days per week as part of a development team, contributing to the frontend of an internal application using Next.js and TypeScript. The application was successfully adopted for internal use. Awarded grade A.",
     stack: ["React", "TypeScript", "Git", "Agile", "CI/CD"],
     github: "#",
+    logo: "/logos/schibsted.png",
 },
 {
     title: "Playwright Test Automation Framework",

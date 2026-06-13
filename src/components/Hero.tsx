@@ -3,7 +3,7 @@ return (
   <section className="mx-auto max-w-5xl px-6 py-24 md:py-32 fade-in">
   <div className="max-w-3xl">
         <p className="mb-4 text-sm font-medium text-slate-500">
-        IT Student & Junior Software Engineer
+        IT Graduate & Junior Software Engineer
         </p>
 
         <h1 className="text-4xl font-bold tracking-tight text-slate-950 md:text-6xl">

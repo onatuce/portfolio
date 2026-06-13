@@ -18,11 +18,24 @@ return (
         {projects.map((project) => (
             <article
             key={project.title}
-            className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+            className="flex h-full flex-col rounded-[18px] border border-slate-100 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.06)]"
             >
-            <h3 className="text-lg font-semibold text-slate-950">
+            <h3 className="text-lg font-semibold text-slate-950 text-center">
                 {project.title}
             </h3>
+
+            {project.logo && (
+            <div className="mt-3 flex w-full justify-center">
+                <div className="h-14 w-32 overflow-hidden rounded-[34px]">
+                    <img
+                        src={project.logo}
+                        alt={`${project.title} logo`}
+                        className="block h-full w-full object-cover"
+                        loading="lazy"
+                    />
+                </div>
+            </div>
+            )}
 
             <p className="mt-3 text-sm leading-6 text-slate-600">
                 {project.description}

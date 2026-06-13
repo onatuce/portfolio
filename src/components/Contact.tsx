@@ -7,7 +7,7 @@ return (
         <h2 className="text-2xl font-bold tracking-tight text-slate-950">
         Contact
         </h2>
-        <p className="mt-4 max-w-2xl text-slate-600">
+        <p className="mt-4 max-w-5xl text-slate-800">
         Open to junior roles in software engineering, testing, platform or system-oriented environments.
         </p>
         <div className="mt-8 space-y-3 text-sm">
@@ -37,7 +37,7 @@ return (
             <img
             src="/contact.jpg"
             alt="Contact"
-            className="h-40 w-30 object-cover rounded-xl shadow-md border border-slate-200 bg-white sm:h-28 sm:w-28 md:h-42 md:w-32"
+            className="h-30 w-30 object-cover rounded-xl shadow-md border border-slate-200 bg-white sm:h-28 sm:w-28 md:h-42 md:w-32"
             />
         </div>
         </div>
